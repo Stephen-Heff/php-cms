@@ -40,11 +40,11 @@ $result = mysqli_query( $connect, $query );
     <th align="left">Description</th>
     <th align="left">Institution</th>
     <th align="left">URL</th>
-    <th align="left">Date</th>
+    <th align="center">Date</th>
     <th></th>
     <th></th>
     <th></th>
-  </tr>
+   </tr>
   <?php while( $record = mysqli_fetch_assoc( $result ) ): ?>
     <tr>
       <td align="center">
@@ -81,6 +81,3 @@ $result = mysqli_query( $connect, $query );
 include( 'includes/footer.php' );
 
 ?>
-
-
-
