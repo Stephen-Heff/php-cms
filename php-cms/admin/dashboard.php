@@ -18,12 +18,12 @@ include( 'includes/header.php' );
   </li>
   <li>
     <a href="educations.php">
-      Manage Educations &#9815;;
+      Manage Educations &#9815;
     </a>
   </li>
   <li>
     <a href="socials.php">
-      Manage socials &#9814;;
+      Manage socials &#9814;
     </a>
   </li>
   <li>
@@ -38,7 +38,7 @@ include( 'includes/header.php' );
   </li>
   <li>
     <a href="logout.php">
-      Logout
+      Logout &#9819;
     </a>
   </li>
 </ul>
