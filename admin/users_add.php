@@ -31,6 +31,13 @@ if( isset( $_POST['first'] ) )
     
   }
 
+  /*
+  // Example of debugging a query
+  print_r($_POST);
+  print_r($query);
+  die();
+  */
+
   header( 'Location: users.php' );
   die();
   
