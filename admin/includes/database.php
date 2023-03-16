@@ -1,10 +1,10 @@
 <?php
 
 $connect = mysqli_connect( 
-    "sql213.epizy.com", 
-    "epiz_29666120", 
-    "U9x2tTEPKECh", 
-    "epiz_29666120_portfolio" 
+    "sql311.epizy.com", //Host
+    "epiz_33410184", //Username
+    "zM7adWT2liwuu2l", //Password
+    "epiz_33410184_cms" //Database
 );
 
 mysqli_set_charset( $connect, 'UTF8' );
